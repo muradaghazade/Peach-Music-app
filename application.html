@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X stream</title>
+    <title>Peach</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 p-4">
-        <a class="navbar-brand" href="index.html"><img class="logo"
+        <a class="navbar-brand" href="application.html"><img class="logo"
                 src="black-peach.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active m-sm-1 mt-2 mt-sm-0">
-                    <a class="nav-link" id="add" href="#about">Artists<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="add" href="#">Artists<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active m-sm-1 mt-sm-0">
-                    <a class="nav-link" id="add_two" href="#speakers">Albums<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="add_two" href="#">Albums<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active m-sm-1 mt-sm-0">
-                    <a class="nav-link" id="add_two" href="#schedule">Genres<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="add_two" href="#">Genres<span class="sr-only">(current)</span></a>
                 </li>
                 <!-- <li> -->
 
@@ -44,6 +44,7 @@
                 <li class="nav-item active mt-2 mt-sm-0">
                     <input type="text" class="ml-auto pb-1 nav-header" placeholder="Search">
                 </li>
+                <!-- <button class="play-button"><i class="material-icons mr-2">search</i></button> -->
             </ul>
             <ul class="navbar-nav ml-auto align-items-start mb-3 mb-lg-0">
                 <li class="nav-item active">
@@ -198,11 +199,11 @@
                 <h2 class="mr-auto ml-4 mb-3 new-music-header">For you</h2>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="songs">
                                 <div class="song-one d-flex mb-5">
-                                <div class="song-image-div">
-                                    <img src="https://upload.wikimedia.org/wikipedia/ru/f/ff/My_Dear_Melancholy%2C.jpg" alt="" class="song-image">
+                                <div class="song-image-div mb-3">
+                                    <img src="https://upload.wikimedia.org/wikipedia/ru/f/ff/My_Dear_Melancholy%2C.jpg" alt="" class="song-image mt-2">
                                 </div>
                                 <div class="">
                                     <div>
@@ -213,7 +214,7 @@
                                         <p class="song-title">Wasted Times</p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="progress">
+                                        <div class="progress col-7">
                                             <div class="progress-bar w-0">
                                             </div>
                                             
@@ -221,11 +222,15 @@
                                         <small>0:00</small>
                                         <small class="end">3:40</small>
                                 </div>
+                                <div class="butss">
                                 <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                <button class="play-button mt-4"><i class="material-icons">share</i></button>
+                                <button class="play-button mt-4"><i class="material-icons">info</i></button>
+                                </div>
                                 </div>
                             </div>
                             <div class="song-one d-flex mb-5">
-                                <div class="song-image-div">
+                                <div class="song-image-div mb-3">
                                     <img src="https://images.complex.com/complex/images/c_fill,f_auto,g_center,w_1200/fl_lossy,pg_1/obgrd0sgpp9nnsud4o3b/the-weeknd-doja-cat-in-your-eyes-remix" alt="" class="song-image">
                                 </div>
                                 <div class="">
@@ -237,7 +242,7 @@
                                         <p class="song-title">In Your Eyes Remix (feat. Doja Cat)</p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="progress">
+                                        <div class="progress col-7">
                                             <div class="progress-bar w-0">
                                             </div>
                                             
@@ -245,12 +250,16 @@
                                         <small>0:00</small>
                                         <small class="end">3:38</small>
                                 </div>
-                                <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                <div class="butss">
+                                    <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                    <button class="play-button mt-4"><i class="material-icons">share</i></button>
+                                    <button class="play-button mt-4 ml-auto"><i class="material-icons">info</i></button>
+                                </div>
                                 </div>
                             </div>
 
                             <div class="song-one d-flex mb-5">
-                                <div class="song-image-div">
+                                <div class="song-image-div mb-3">
                                     <img src="https://upload.wikimedia.org/wikipedia/ru/0/0c/Eternal_Atake_%28original%29.jpg" alt="" class="song-image">
                                 </div>
                                 <div class="">
@@ -262,7 +271,7 @@
                                         <p class="song-title">Baby Pluto</p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="progress">
+                                        <div class="progress col-7">
                                             <div class="progress-bar w-0">
                                             </div>
                                             
@@ -270,11 +279,15 @@
                                         <small>0:00</small>
                                         <small class="end">3:30</small>
                                 </div>
+                                <div class="butss">
                                 <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                <button class="play-button mt-4"><i class="material-icons">share</i></button>
+                                <button class="play-button mt-4 ml-auto"><i class="material-icons">info</i></button>
+                                </div>
                                 </div>
                             </div>
                             <div class="song-one d-flex mb-5">
-                                <div class="song-image-div">
+                                <div class="song-image-div mb-3">
                                     <img src="https://img.discogs.com/nMeGVyKDHO_q6A1VkLZpChoWNUE=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14045321-1566744227-7164.jpeg.jpg" alt="" class="song-image">
                                 </div>
                                 <div class="">
@@ -286,7 +299,7 @@
                                         <p class="song-title">Hot ft. Gunna</p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="progress">
+                                        <div class="progress col-7">
                                             <div class="progress-bar w-0">
                                             </div>
                                             
@@ -294,11 +307,15 @@
                                         <small>0:00</small>
                                         <small class="end">3:14</small>
                                 </div>
+                                <div class="butss">
                                 <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                <button class="play-button mt-4"><i class="material-icons">share</i></button>
+                                <button class="play-button mt-4 ml-auto"><i class="material-icons">info</i></button>
+                                </div>
                                 </div>
                             </div>
                             <div class="song-one d-flex">
-                                <div class="song-image-div">
+                                <div class="song-image-div mb-3">
                                     <img src="https://images.genius.com/ce75af9ee6c2c4a113e5ce6adfe1aebe.1000x1000x1.jpg" alt="" class="song-image">
                                 </div>
                                 <div class="">
@@ -310,7 +327,7 @@
                                         <p class="song-title reminder">Reminder</p>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="progress">
+                                        <div class="progress col-7">
                                             <div class="progress-bar w-0">
                                             </div>
                                             
@@ -318,11 +335,16 @@
                                         <small>0:00</small>
                                         <small class="end">3:50</small>
                                 </div>
+                                <div class="butss">
                                 <button class="play-button add-button mt-4"><i class="material-icons">add</i></button>
+                                <button class="play-button mt-4"><i class="material-icons">share</i></button>
+                                <button class="play-button mt-4 ml-auto"><i class="material-icons">info</i></button>
+                                </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 playlists">
+                            <!-- <h2 class="mr-auto ml-4 mb-3 new-music-header">Playlists</h2> -->
                         </div>
                     </div>
                 </div>
