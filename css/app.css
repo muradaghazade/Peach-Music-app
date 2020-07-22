@@ -109,6 +109,12 @@ body {
     font-size: 17px;
     margin-left: 40px;
 }
+.reminder {
+    margin-left: 50px;
+}
+.hot {
+    margin-left: 70px;
+}
 .artist-info {
     margin-top: -45px;
     margin-left: 30px;
