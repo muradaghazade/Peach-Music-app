@@ -1,0 +1,56 @@
+MUSIC APP STORY.
+
+User can't listen to music without account.
+
+Starting the application:
+
+    1. Login
+    2. Sign up
+
+
+if user doesnt have account(Logs in):
+
+    1. Ask user about favourite Genre of music.
+    2. Recommend user music in this genre divided by Tracks, Albums, Artists.
+    3. User can add content to his playlists or stream it.
+    4. User can search for music.
+        Result divided by Tracks, Albums.
+
+        Playlist:
+            Playlist also divided by Tracks, Albums, Artists.
+            User can choose song from any section and stream it.
+
+
+        When user clicks on Artist:
+            Show user new page with Artist photo, his albums, his most streamed tracks, and info about the Artist.
+
+
+        When user clicks on Album:
+            Show user Album as a new page.
+
+            Page contains of Album preview picture, Album info and Tracks.
+            User can listen to tracks from this Album.
+
+        
+if user has account(Signs up):
+
+    1. Recommend user songs based on what kind of music he likes.
+            Devided by Tracks, Albums, Artists.
+    2. Recommend user new released music divided by Tracks, Albums.
+    3. Show user the section named  LAST LISTENED (or something like this) where user can find last listened music.
+
+
+Search:
+    
+    1. There is always a search bar where user can search for music.
+    2. User can search by:
+                            1. Tracks
+                            2. Albums
+                            3. Artists
+
+
+Music Player:
+
+    1. When user clicks on track app opens the music player.
+    2. It has track preview picture, start-stop button and buttons for going to next or last track.
+    3. And also in the bottom we can see the Title of the next track.

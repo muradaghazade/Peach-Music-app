@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: black;
+    /* font-family: 'Red Rose', cursive; */
+    /* background-color: white; */
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white !important;
+    border-bottom: 1px solid #E6E6E6;
+    z-index: 1;
+    top: 0;
+    height: 13%;
+    /* padding: 7px !important; */
+    z-index: 1;
+
+}
+.content {
+    padding: 16px;
+  }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .logo {
+      width: 70px;
+  }
+
+  .nav-header {
+      border: transparent;
+      border-bottom: 1px solid black;
+      outline: none;
+  }
+
+  .subscribe-btn {
+      border-color: #E6E6E6;
+  }
+
+  ::placeholder {
+    color: black;
+    font-size: 17px;
+  }
+
+  .new-music {
+      border-bottom: 1px solid #E6E6E6;
+  }
+
+  .new-music-header {
+      font-size: 27px;
+  }
+
+  .album-image {
+      width: 100%;
+  }
+
+  .artist-name{
+      font-size: 13px;
+      color: #696969;
+  }
+
+  .peach-favs {
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+  .peach-card {
+      background-color: rgb(250, 44, 67);
+      border-radius: 15px;
+      width: 290px;
+      height: 130px;
+  }
+
+  .card-logo {
+      width: 95px !important;
+      margin-top: -30px;
+  }
+  .cards-h4 {
+      color: white;
+      margin-top: -10px;
+      font-size: 23px;
+  }
+  .cards-b {
+    color: white;
+    margin-top: -20px;
+}
+.song-image {
+    width: 200px;
+}
+.playlists {
+    border-left: 1px solid #E6E6E6 !important;
+}
+.play-button {
+    background: transparent;
+    border: transparent;
+}
+.artist-title {
+    font-size: 15px;
+    margin-left: 45px;
+}
+.song-title {
+    font-size: 17px;
+    margin-left: 40px;
+}
+.artist-info {
+    margin-top: -45px;
+    margin-left: 30px;
+}
+.progress {
+    width: 500px;
+}
+.end {
+    margin-left: 440px;
+}
+.add-button {
+    margin-left: 480px;
+}
+  @media (min-width: 361px) and (max-width: 767px) {
+    .navbar {
+        height: 30%;
+        z-index: 1;
+    }
+    .progress {
+        width: 200px;
+    }
+    .end {
+        margin-left: 140px;
+    }
+    .add-button {
+        margin-left: 180px;
+    }
+    .song-image {
+        width: 70px;
+    }
+
+}
+@media (max-width: 360px) {
+    .navbar {
+        height: 30%;
+    }
+    .main {
+        margin-top: 108px;
+    }
+    .progress {
+        width: 200px;
+    }
+    .end {
+        margin-left: 140px;
+    }
+    .add-button {
+        margin-left: 180px;
+    }
+    .song-image {
+        width: 70px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 841px) {
+    pass
+
+}
