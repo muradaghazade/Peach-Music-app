@@ -172,6 +172,16 @@ button {
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
 }
+.final-container {
+    border-bottom: 1px solid #E6E6E6 !important;
+}
+.footer-logo {
+    width: 90px;
+}
+.copyright {
+    color: rgb(108, 108, 108);
+    font-size: 13px;
+}
 /* .end {
     margin-left: 520px;
 } */
