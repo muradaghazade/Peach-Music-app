@@ -96,7 +96,7 @@ button {
     height: 130px;
 }
 .playlist-card-three {
-    background-image: url(https://cdn.dribbble.com/users/1211914/screenshots/4488112/artboard_copy.png);
+    background-image: url(https://cdn-s3.allmusic.com/release-covers/400/0003/934/0003934192.jpg);
     border-radius: 15px;
     width: 100%;
     height: 130px;
@@ -123,6 +123,13 @@ button {
     color: white;
     margin-top: -20px;
     font-size: 23px;
+}
+.cards-b-two {
+    color: white;
+    margin-top: -10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
 }
 .song-image {
     width: 150px;
