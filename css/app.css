@@ -20,9 +20,8 @@ button {
     border-bottom: 1px solid #E6E6E6;
     z-index: 1;
     top: 0;
-    /* height: 13%; */
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
+    /* padding-bottom: 0 !important;
+    padding-top: 0 !important; */
 
 }
 .content {
@@ -84,6 +83,30 @@ button {
       width: 100%;
       height: 130px;
   }
+  .playlist-card {
+    background-image: url('r&b.png');
+    border-radius: 15px;
+    width: 100%;
+    height: 130px;
+}
+.playlist-card-two {
+    background-image: url(https://assets.lnwy.co/app/uploads/2018/01/24142138/lnwy-playlist-january-cover-600x600.jpg);
+    border-radius: 15px;
+    width: 100%;
+    height: 130px;
+}
+.playlist-card-three {
+    background-image: url(https://cdn.dribbble.com/users/1211914/screenshots/4488112/artboard_copy.png);
+    border-radius: 15px;
+    width: 100%;
+    height: 130px;
+}
+.playlist-card-four {
+    background-image: url(https://is5-ssl.mzstatic.com/image/thumb/Features128/v4/86/29/a6/8629a694-7dd3-eb25-cf87-18c10aeccc6c/source/600x600cc.jpg);
+    border-radius: 15px;
+    width: 100%;
+    height: 130px;
+}
   .card-borders {
     border-top: 1px solid #E6E6E6;
   }
@@ -135,19 +158,26 @@ button {
 .progress {
     width: 100%;
 }
-.end {
+.playlist-card-h4 {
+    color: white;
+    margin-top: -10px;
+    font-size: 37px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+/* .end {
     margin-left: 520px;
-}
-.add-button {
+} */
+/* .add-button {
     margin-left: 480px;
-}
+} */
 .butss {
-    margin-left: 380px;
-    margin-top: -65px;
+    /* margin-left: 380px; */
+    /* margin-top: -65px; */
 }
   @media (min-width: 361px) and (max-width: 767px) {
     .navbar {
-        height: 30%;
+        /* height: 80px; */
         z-index: 1;
     }
     /* .progress {
@@ -156,22 +186,22 @@ button {
     .end {
         margin-left: 50px;
     }
-    .add-button {
+    /* .add-button {
         margin-left: 180px;
-    }
+    } */
     .song-image {
         width: 100px;
     }
     .butss {
-        margin-left: 0px;
-        margin-top: -65px;
+        /* margin-left: 0px; */
+        /* margin-top: -65px; */
     }
 
 }
 @media (max-width: 360px) {
-    .navbar {
-        height: 30%;
-    }
+    /* .navbar {
+        height: 50px;
+    } */
     .main {
         margin-top: 108px;
     }
@@ -181,15 +211,15 @@ button {
     .end {
         margin-left: 50px;
     }
-    .add-button {
+    /* .add-button {
         margin-left: 180px;
-    }
+    } */
     .song-image {
         width: 100px;
     }
     .butss {
-        margin-left: 0px;
-        margin-top: -65px;
+        /* margin-left: 0px;
+        margin-top: -65px; */
     }
 
 }
