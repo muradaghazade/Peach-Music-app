@@ -1,0 +1,81 @@
+body {
+    background-image: url('Untitled\ design\ \(11\).png');
+}
+.info {
+    color: black;
+    background: transparent;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+::placeholder {
+    color: black;
+    /* font-family: 'Red Rose', cursive; */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.icon-image {
+    width: 150px;
+}
+#project-description {
+    color: black;
+    width: 350px;
+    height: 150px;
+}
+#iformContent {
+    margin-top: 100px;
+}
+.button {
+    color: white;
+    background-color: #fc5c74;
+    border-radius: 5px;
+    border: transparent;
+    width: 80px;
+    height: 35px;
+    letter-spacing: 1px;
+    outline: none !important;
+}
+.button-area {
+    padding: 10px;
+}
+
+@media (min-width: 361px) and (max-width: 400px) {
+    .button {
+        margin-left: 80px;
+    }
+    .icon-image {
+        margin-left: 80px;
+    }
+
+}
+@media (max-width: 360px) {
+    .button {
+        margin-left: 130px;
+    }
+    .icon-image {
+        margin-left: 130px;
+    }
+
+}
+@media (min-width: 401px) and (max-width: 767) {
+    .button {
+        margin-left: 100px !important;
+    }
+    .icon-image {
+        margin-left:100px !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 841px) {
+
+}
